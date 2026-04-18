@@ -67,7 +67,7 @@ src/test/resources
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/selenium-java-automation-framework.git
+git clone https://github.com/sujitmundhe-sdet/selenium-java-automation-framework.git
 
 
 2. Navigate to project folder:
