@@ -20,21 +20,13 @@ public class E2ETest extends BaseTest {
 		CheckoutPage	checkout = new CheckoutPage(driver);
 		
 		login.login(ConfigReader.get("username"), ConfigReader.get("password"));
-		Thread.sleep(2000);
 		inventory.addItemToCart("Sauce Labs Bike Light");
-		Thread.sleep(2000);
 		inventory.goToCart();
-		Thread.sleep(2000);
 		cart.verifyItem("Sauce Labs Bike Light");
-		Thread.sleep(2000);
 		cart.checkoutItem();
-		Thread.sleep(2000);
 		checkout.enterDetails("Test","user","411001");
-		Thread.sleep(2000);
 		checkout.clickContinue();
-		Thread.sleep(2000);
-		
-		
+
 	}
 	
 
